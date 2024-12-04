@@ -1,0 +1,32 @@
+#home {
+    width: 100%;
+    height: 100vh;
+    /*background: bottom;
+    background-size: cover;*/
+}
+
+#home p{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    /*padding-left: 2rem;*/
+}
+
+h1{
+    color: #fff;
+    font-size: xxx-large;
+    /*padding-left: 2rem;*/
+}
+
+#home p span {
+    color: #fff;
+    /*padding-bottom: 4px;*/
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+}
+
+section{
+    height: 100vh;
+}

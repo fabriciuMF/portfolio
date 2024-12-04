@@ -1,0 +1,47 @@
+<section id="about">
+    <div class="container">
+        <h2><strong>{{'about.title' | translate}}</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+            <div class="col-lg-4 col-md-12" data-aos="fade-right">
+                <picture>
+                    <img src="assets/images/foto_fabriciu_mendoza_profile.jpg" alt="photo profile" class="img-fluid">
+                </picture>
+                <div class="d-flex justify-content-center">
+                    <a class="btn-social-media" href="https://www.linkedin.com/in/fabriciumendoza/" rel="tooltip"
+                        target="_blank" title="{{'about.followMeOn' | translate}} Linkedin">
+                        <i class="fa fa-linkedin fa-lg "></i>
+                    </a>
+                    <a class="btn-social-media btn-default btn-round btn-lg btn-icon"
+                        href="https://github.com/fabriciuMF" rel="tooltip" target="_blank"
+                        title="{{'about.followMeOn' | translate}} GitHub">
+                        <i class="fa fa-github fa-lg "></i></a>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-12 pt-4 pt-lg-0" data-aos="fade-left">
+                
+                <h4> {{'about.name' | translate}} [ {{'about.jobTitle' | translate}} ]</h4>
+                <p> {{'about.introductionOfMe' | translate}}</p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <ul>
+                            <li><fa-icon [icon]="building"></fa-icon> {{'about.location' | translate}}</li>
+                            <li><fa-icon [icon]="phone"></fa-icon><a href="tel:+49 17682351102"> {{'about.phone' | translate}}</a></li>
+                            <li><fa-icon [icon]="email"></fa-icon><a href="mailto:fabriciu.mendoza@gmail.com">fabriciu.mendoza@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <ul>
+                            <!--<li><fa-icon [icon]="birthday"></fa-icon> {{'about.years' | translate}}</li>-->
+                            <li><fa-icon [icon]="badge"></fa-icon> {{'about.graduation' | translate}}</li>
+                            <li><fa-icon [icon]="mobile"></fa-icon> {{'about.mobility' | translate}}</li>
+                            <li><fa-icon [icon]="home"></fa-icon> {{'about.searchFor' | translate}}</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<p>{{'about.extraDescription' | translate}}</p>-->
+                <p>{{'about.myResearch' | translate}}</p>
+            </div>
+        </div>
+    </div>
+</section>

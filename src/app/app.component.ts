@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -8,9 +9,9 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent implements OnInit {
   currentYear:number;
-  constructor(private _translateService: TranslateService) {
-    this._translateService.addLangs(['en', 'fr']);
-    this._translateService.setDefaultLang('fr');
+  constructor(private _translateService: TranslateService, private router: Router) {
+    this._translateService.addLangs(['en', 'de']);
+    this._translateService.setDefaultLang('en');
     this.currentYear=new Date().getFullYear();
   }
 

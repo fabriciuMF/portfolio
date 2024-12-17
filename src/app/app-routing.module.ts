@@ -8,7 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { TranslateModule } from '@ngx-translate/core';
 
 const routes: Routes = [
-  { path: '', component: AppComponent }, 
+  { path: '', component: AppComponent },
   { path: 'skills', component: SkillsComponent }, 
   { path: 'projects', component: ProjectsComponent }, 
   { path: 'cv', component: CurriculumVitaeComponent }, 

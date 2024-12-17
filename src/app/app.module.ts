@@ -14,7 +14,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { MatRadioModule } from '@angular/material/radio';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -28,7 +28,8 @@ import { MatInputModule } from '@angular/material/input';
     SkillsComponent,
     ContactComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    
   ],
   imports: [
     CommonModule,
@@ -43,6 +44,7 @@ import { MatInputModule } from '@angular/material/input';
     MatFormFieldModule,
     MatInputModule,
     TranslateModule.forRoot(),
+    ReactiveFormsModule
   ],
   providers: [
    

@@ -4,6 +4,7 @@ import * as $ from 'jquery';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
 import { locale as deutsch } from '../shared/i18n/de';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ import { locale as deutsch } from '../shared/i18n/de';
 })
 export class HeaderComponent implements OnInit {
   language:any="";
-  constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
+  constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService, private router: Router) {
     this._translationLoaderService.loadTranslations(english, deutsch);
     if(localStorage.getItem("lang")){
       this.language=localStorage.getItem("lang");
@@ -42,4 +43,5 @@ export class HeaderComponent implements OnInit {
       }
     );
   }
+
 }

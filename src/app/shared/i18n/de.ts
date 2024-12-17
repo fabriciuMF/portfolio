@@ -28,6 +28,7 @@ export const locale = {
             'message': 'Message',
             'enterMessage': 'Write your message here',
             'send': 'Send',
+            'hasBeenSend': 'Message has been sent.'
         },
         'education': {
             'title': 'Curriculum Vitae',

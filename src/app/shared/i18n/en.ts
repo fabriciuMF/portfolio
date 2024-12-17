@@ -21,15 +21,16 @@ export const locale = {
         'contact': {
             'contactMe': 'Contact Me',
             'notHesitateToContactMe': 'Do not hesitate to contact me',
-            'identify': 'Name',
-            'enterIdentify': 'Enter your full name',
-            'email': 'Email',
-            'enterEmail': 'Enter your email address',
+            'identify': 'Full Name',
+            'enterIdentify': 'Full Name',
+            'email': 'Email Address',
+            'enterEmail': 'Enter your email',
             'object': 'Subject',
-            'enterObject': 'Enter the subject of your message',
+            'enterObject': 'Enter your subject',
             'message': 'Message',
             'enterMessage': 'Write your message here',
             'send': 'Send',
+            'hasBeenSend': 'Message has been sent.'
         },
         'education': {
             'title': 'Curriculum Vitae',
@@ -72,7 +73,7 @@ export const locale = {
             'cv': 'Resume',
             'skills': 'Technical Skills',
             //'references': 'References',
-            'contactMe': 'Get in Touch',
+            'contactMe': 'Contact',
             'portfolio': 'My Work',
         },
         'home': {

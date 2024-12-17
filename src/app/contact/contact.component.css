@@ -48,3 +48,8 @@ section{
 h3,h4{
     color: white;
 }
+
+.sent-message{
+    font-size: 1rem !important;
+    color: greenyellow !important;
+}

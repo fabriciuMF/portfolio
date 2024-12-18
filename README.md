@@ -21,4 +21,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 And now, you can build and deploy to GitHub Pages with a single command: npm run deploy
 
 
+## Netlify notes
 
+Run `npm run build:prod` to build the project . The build artifacts will be stored in the `dist/` directory. And run `ng serve` to see that everything works properly. After that push your changes and deploy it in Netlify. 
+
+In addition add a variable in netlify to downgrade the Node version: Variable (NODE_VERSION), Value(16)

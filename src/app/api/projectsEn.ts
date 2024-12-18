@@ -1,119 +1,94 @@
 export const projectsEn = [
     {
         id:"p1",
-        name: "project 1",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        name: "Portfolio",
+        technologies: 'Angular 12, Html, Css, TypeScript, BootStrap, Netlify, EmailJS.',
         images: [
             {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                title:'Portfolio',
+                src:   "assets/images/project/portfolio/portfolio1.png",
             },
             {
-                title:'Trainers',
-                src :"assets/images/pokedex.png",
+                title:'Portfolio',
+                src:   "assets/images/project/portfolio/portfolio2.png",
             },
             {
-                title:"Profile",
-                src: "assets/images/pokedex.png",
+                title:'Portfolio',
+                src:   "assets/images/project/portfolio/portfolio3.png",
+            },
+            {
+                title:'Portfolio',
+                src:   "assets/images/project/portfolio/portfolio4.png",
             },
         ],
-        url: "",
-        detail:"",
-        codeSourceUrl:'',
+        url: "https://github.com/fabriciuMF/portfolio",
+        detail:"A responsive and interactive portfolio showcasing an introduction, detailed skills overview, and additional sections for easy navigation. It features a seamless contact form powered by EmailJS for effortless communication.",
+        codeSourceUrl:'https://github.com/fabriciuMF/portfolio',
         detailIsDisplayed: false,
     },
     {
         id:"p2",
-        name: "project 2",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        name: "tuiShop",
+        technologies: 'Java 17, Springboot, Thymeleaf, PostgreSql, Html, Css, BootStrap, FontAwesome.',
         images: [
             {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-1.png",
             },
             {
-                title:'Trainers',
-                src :"assets/images/pokedex.png",
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-2.png",
             },
             {
-                title:"Profile",
-                src: "assets/images/pokedex.png",
-            },
-            
-        ],
-        url:'',
-        detail:"",
-        codeSourceUrl:'',
-        detailIsDisplayed: false,
-    },
-    {
-        id:"p3",
-        name: "project 3",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
-        images: [
-            {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-3.png",
             },
             {
-                title:'Trainers',
-                src :"assets/images/pokedex.png",
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-4.png",
             },
             {
-                title:"Profile",
-                src: "assets/images/pokedex.png",
-            },            
-        ],
-        url:'',
-        detail:"",
-        codeSourceUrl:'',
-        detailIsDisplayed: false,
-    },
-    {
-        id:"p4",
-        name: "project 4",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
-        images: [
-            {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-5.png",
             },
             {
-                title:'Trainers',
-                src :"assets/images/pokedex.png",
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-6.png",
             },
             {
-                title:"Profile",
-                src: "assets/images/pokedex.png",
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-7.png",
+            },
+            {
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-8.png",
+            },
+            {
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-9.png",
+            },
+            {
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-10.png",
+            },
+            {
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-11.png",
+            },
+            {
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-12.png",
+            },
+            {
+                title:'tuiShop',
+                src:   "assets/images/project/tui-shop/tui-shop-13.png",
             },
         ],
-        url:'',
-        detail:"",
-        codeSourceUrl:'',
+        url: "https://github.com/fabriciuMF/tui-shop",
+        detail:"A Spring Boot and Thymeleaf-powered E-Commerce platform with PostgreSQL. Features include dynamic user and admin interfaces, product management, order tracking, and secure payments. Admins control categories, products, and orders, while users can browse, order, and pay seamlessly. Fully responsive and designed for efficiency.",
+        codeSourceUrl:'https://github.com/fabriciuMF/tui-shop',
         detailIsDisplayed: false,
     },
-    {
-        id:"p5",
-        name: "project 5",
-        technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
-        images: [
-            {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
-            },
-            {
-                title:'Trainers',
-                src :"assets/images/pokedex.png",
-            },
-            {
-                title:"Profile",
-                src: "assets/images/pokedex.png",
-            },
-        ],
-        url:'',
-        detail:"",
-        codeSourceUrl:'',
-        detailIsDisplayed: false,
-    },
+    
 ];
 

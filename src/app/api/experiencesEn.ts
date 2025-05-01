@@ -1,13 +1,23 @@
 export const experiencesEn = [
     {
+        title: "Master Thesis Student",
+        company: 'Siemens AG, Munich, Germany',
+        period: "09/2022 – 09/2023",
+        //technologies: 'Java, Spring Boot, REST APIs, JSON, Angular 11, TypeScript, SQL Server.',
+        description: [
+            "Developing a security-maturity assessment framework for open-source software.",
+            "Partnering with Siemens AG R&D to align the model with real-world industrial needs.",
+        ],
+        detailIsDisplayed: false,
+    },{
         title: "Full Stack Developer",
         company: 'Infosys, Lima, Peru',
         period: "09/2022 – 09/2023",
         technologies: 'Java, Spring Boot, REST APIs, JSON, Angular 11, TypeScript, SQL Server.',
         description: [
-            "Migrated a legacy Java EE codebase to Spring Boot and Angular, reducing API response times by 30% and improving system scalability.",
-            "Enhanced system stability by redesigning key modules, reducing bugs by 40%.",
-            "Designed and implemented new features, boosting user satisfaction by 15%.",
+            "Migrated from legacy to modern systems, increasing API performance by 30%.",
+            "Designed and implemented RESTful APIs, reducing response times by 20%.",
+            "Developed and optimized SQL queries, improving database performance by 25%.",
             "Conducted rigorous testing and code reviews, ensuring 99% error-free deliverables.",
         ],
         detailIsDisplayed: false,
@@ -18,9 +28,9 @@ export const experiencesEn = [
         period: "07/2021 – 09/2022",
         technologies: 'Java 8 & 11, Spring Boot, REST APIs, JSON, Angular 11, SQL Server, Linux.',
         description: [
-            "Built a secure reporting system from scratch using Maven and Java, adhering to strict compliance standards.",
-            "Automated data extraction workflows, cutting manual effort by 35%.",
-            "Optimized reporting systems, reducing generation times by 40%."
+            "Developed and maintained financial applications, ensuring 99.5% system availability.",
+            "Automated financial reporting workflows, saving 35% of manual processing time.",
+            "Worked closely with cross-functional teams to implement data-driven business decisions.",
         ],
         detailIsDisplayed: false,
     },
@@ -30,9 +40,10 @@ export const experiencesEn = [
         period: "01/2021 – 06/2021",
         technologies: 'Java 8 & 11, Spring Boot, REST APIs, JSON, SQL Server, PostgreSQL.',
         description: [
-            "Resolved 50+ monthly bugs, reducing critical issues by 25%.",
-            "Delivered new features that improved application performance by 20%.",
-            "Coordinated with agile teams, increasing project delivery efficiency by 15%."
+            "Improved bug resolution efficiency by 25% with debugging and testing optimizations.",
+            "Developed scalable microservices architecture, improving performance by 20%.",
+            "Optimized data processing, reducing system latency by 15%.",
+
         ],
         detailIsDisplayed: false,
     },
@@ -42,9 +53,9 @@ export const experiencesEn = [
         period: "11/2018 – 03/2020",
         technologies: ': Java 8, Spring Boot, REST APIs, JSON, XML, SQL Server, PostgreSQL.',
         description: [
-            "Built and enhanced billing systems, reducing transaction errors by 30%.",
-            "Designed REST/XML APIs, increasing billing declaration processing efficiency by 20%.",
-            "Led customer support initiatives, achieving a 90% satisfaction rate."
+            "Designed and implemented REST and SOAP APIs, increasing system efficiency by 20%.",
+            "Enhanced billing and transaction systems, reducing processing errors by 30%.",
+            "Led customer support initiatives, achieving a 90% satisfaction rate.",
         ],
         detailIsDisplayed: false,
     },
